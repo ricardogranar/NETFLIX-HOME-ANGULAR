@@ -1,0 +1,37 @@
+section {
+
+    align-items: center;
+    justify-content: center;
+    margin-left: 5px;
+  }
+  
+  article {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  h4 {
+    text-transform: capitalize;
+    margin: 10px;
+    font-size: 20px;
+    color: rgb(146, 149, 151);
+  }
+  
+  .film {
+    cursor: pointer;
+    margin: 0px 1px;
+    img {
+      width: 300px;
+      height: 180px;
+      border: 2px solid black;
+      box-shadow: 2px -2px 12px rgb(145, 142, 142);
+      transition: all 0.5s ease;
+      border-radius: 10px;
+      &:hover {
+        transform: scale(1.1);
+        box-shadow: 6px -6px 12px rgb(145, 142, 142);
+        border-radius: 10px;
+      }
+    }
+  
+  }
